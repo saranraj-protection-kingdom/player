@@ -8,5 +8,8 @@ class py_solution:
             else:
                 int_val += rom_val[s[i]]
         return int_val
+val=py_solution().roman_to_int(raw_input())
+if int(val)<=20:
+    print val
 
-print(py_solution().roman_to_int(raw_input()))
+
